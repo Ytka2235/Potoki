@@ -48,7 +48,7 @@ internal class Program
                         select proc;
         Console.WriteLine("\n*** Текущие процессы ***\n");
         foreach (var p in myProcess)
-            Console.WriteLine("-> PID: {0}\tStartTime: {1}\tName: {2}", p.Id,p.StartTime, p.ProcessName);
+            Console.WriteLine("-> PID: {0}\tStartTime: {1}\tName: {2}", p.Id,p.StartTime, p.ProcessName);  /// Система не разрешает вызвать время старта процесса
     }
 
 
